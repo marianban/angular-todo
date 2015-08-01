@@ -1,0 +1,25 @@
+.slide.ng-enter {
+    transition: 0.4s ease all;
+    transform: translateY(-56px);
+}
+
+.slide.ng-enter.ng-enter-active {
+    transform: translateY(0);
+}
+
+.slide-out.ng-leave {
+    transition: 0.3s linear all;
+    max-height: 45px;
+    overflow: hidden;
+    &:last-child {
+        border-bottom: @taskBorder;
+    }
+}
+
+.slide-out.ng-leave.ng-leave-active {
+    max-height: 0;
+    opacity: 1;
+    &:last-child {
+        border-bottom: @taskBorder;
+    }
+}

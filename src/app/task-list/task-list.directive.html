@@ -1,0 +1,12 @@
+<task-list-item editable="true"
+    force-edit-mode="true"
+    on-primary-action="vm.addNewTask(task)"
+    primary-action-title="Add new task">
+</task-list-item>
+<div ng-repeat="task in vm.tasks.items"
+    class="slide slide-out">
+    <task-list-item task="task"
+        on-remove="vm.removeTask(task)"
+        primary-action-title="Save">
+    </task-list-item>
+</div>
