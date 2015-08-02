@@ -7,5 +7,9 @@ features:
 - remaining tasks counter
 - mobile friendly html layout
 - simple animations
+ 
+instalation:
+- make sure that node.js properly installed
+- run npm install in the same folder (src) as packages.json file 
 
 see in action here: http://majomb.github.io/
