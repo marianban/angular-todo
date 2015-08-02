@@ -10,6 +10,7 @@ features:
  
 instalation:
 - make sure that node.js properly installed
-- run npm install in the same folder (src) as packages.json file 
+- run npm install in the same folder (src) as packages.json file
+- configure you favorite web server to host src folder. Set index.html as default document.
 
 see in action here: http://majomb.github.io/
