@@ -1,3 +1,7 @@
+.task-actions {
+  display: none;
+}
+
 .task {
     padding: 10px 15px;
     background-color: #fff;
@@ -5,6 +9,13 @@
     margin-bottom: -1px;
     margin-top: 0;
     overflow: hidden;
+    min-height: 44px;
+
+    &:hover {
+      .task-actions {
+        display: block;
+      }
+    }
 }
 
 .task-done {
